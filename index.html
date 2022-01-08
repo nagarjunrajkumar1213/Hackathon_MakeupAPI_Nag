@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackatonTask-Nagarjun</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <h1 style="text-align:center;color:rgb(69, 49, 145);font-family:'Times New Roman', Times, serif" ;>First Hackathon
+        Task - Makeup API</h1>
+    <br>
+    <h3 style="text-align:left;color:rgb(69, 49, 145);font-family:'Times New Roman', Times, serif" ;>The Details of the
+        product are displayed using fetch API calls:</h6>
+    <p>Note: Below API is used "http://makeup-api.herokuapp.com/api/v1/products.json",</p>
+    <br>
+    <hr>
+    <div class="productList"></div>
+    <button onclick="displayProductDetails()" type="button" class="productButton">Please click here to view Product Details</button>
+    <h4 style="text-align:center">Product Details</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col" style="text-align:center">SL No</th>
+                <th scope="col" style="text-align:center">Brand Name</th>
+                <th scope="col" style="text-align:center">Product Name</th>
+                <th scope="col" style="text-align:center">Price</th>
+                <th scope="col" style="text-align:center">Product Image</th>
+                <th scope="col" style="text-align:center">Product Link</th>
+                <th scope="col" style="text-align:center">Product Description</th>
+            </tr>
+        <tbody class="productListDetails"></tbody>
+        </thead>
+        <tbody>
+           
+</body>
+
+</html>
